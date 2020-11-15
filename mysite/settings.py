@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '7$7u#wqk6jn1zdo5iqrikd%b^9glw+&__8pd(zoa_mkcdqk422'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG =True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pepe-polling-app.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition

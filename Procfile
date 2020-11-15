@@ -1,0 +1,1 @@
+web:gunicorn pepe-polling-app.wsgi   
